@@ -5,7 +5,9 @@ soma = a + b
 subi = a - b
 multi = a * b
 divi = a / b
+resto = a % b
 print("A Soma é:", soma)
 print("A Subtração é:", subi)
 print("A Multiplicação é:", multi)
 print("A Divisão é:", divi)
+print("O Resto da divisão é:", resto)
