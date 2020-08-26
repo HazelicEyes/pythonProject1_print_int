@@ -1,11 +1,14 @@
 print("Teste de resultados")
-a = 547
-b = 645
+a = int(input('Entre o primeiro valor: '))
+b = int(input('Entre o segundo valor: '))
 soma = a + b
 subi = a - b
 multi = a * b
 divi = a / b
 resto = a % b
+
+# use print(type()) ou similar para saber o tipo da variavel etc
+
 print("A é:", a)
 print("B é:", b)
 print("-------------------------------")
@@ -16,4 +19,4 @@ print("A Divisão é:", divi)
 print("O Resto da divisão é:", resto)
 print("-------------------------------")
 soma2 = a + 99
-print("A + 99 é:", soma2)
+print(a, "+ 99 é:", soma2)
