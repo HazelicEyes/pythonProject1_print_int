@@ -12,12 +12,13 @@ class Calculadora:
     def divi(self):
         return self.a / self.b
 
-calculadora = Calculadora(10, 2)
-print(calculadora.a,"e", calculadora.b)
-print("A soma é: ", calculadora.soma())
-print("A sub é: ", calculadora.sub())
-print("A multi é: ", calculadora.multi())
-print("A divisão é: ", calculadora.divi())
+if __name__ == '__main__':
+    calculadora = Calculadora(10, 2)
+    print(calculadora.a,"e", calculadora.b)
+    print("A soma é: ", calculadora.soma())
+    print("A sub é: ", calculadora.sub())
+    print("A multi é: ", calculadora.multi())
+    print("A divisão é: ", calculadora.divi())
 
 
 
